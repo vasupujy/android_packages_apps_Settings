@@ -1389,7 +1389,20 @@
                 android:value="com.android.settings.wfd.WifiDisplaySettings" />
         </activity>
 
+
+        <!-- Power Saver -->
+
+        <activity
+            android:name=".mokee.PowerSaverSettings"
+            android:label="@string/power_saver_settings_title" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SHORTCUT" />
+              </intent-filter>
+        </activity>
+
         <!-- PerformanceControl activities -->
+
         <activity android:name="com.brewcrewfoo.performance.activities.MainActivity"/>
         <activity android:name="com.brewcrewfoo.performance.activities.PCSettings"/>
         <activity android:name="com.brewcrewfoo.performance.activities.PackActivity"/>

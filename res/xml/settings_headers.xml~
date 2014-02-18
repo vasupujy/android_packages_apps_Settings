@@ -101,7 +101,7 @@
     <header
         android:id="@+id/power_saver"
         android:fragment="com.android.settings.powersaver.PowerSaverSettings"
-        android:icon="@drawable/ic_settings_powersaver"
+        android:icon="@drawable/ic_settings_powersave"
         android:title="@string/power_saver_settings_title" />
 
     <!-- Application Settings -->
