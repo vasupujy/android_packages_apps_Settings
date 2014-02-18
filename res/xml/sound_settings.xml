@@ -100,15 +100,10 @@
             android:entries="@array/emergency_tone_entries"
             android:entryValues="@array/emergency_tone_values" />
 
-    <!-- Volume Rocker -->
-    <PreferenceCategory
-        android:title="@string/volume_buttons_category"/>
-
-    <CheckBoxPreference
-        android:key="volume_wake_screen"
-        android:title="@string/volume_wake_title"
-        android:summary="@string/volume_wake_summary"
-        android:defaultValue="false" />
+    <PreferenceScreen
+            android:key="advanced_sound_settings"
+            android:fragment="com.android.settings.slim.SoundSettings"
+            android:title="@string/advanced_sound_title" />
 
     <!-- Dock -->
     <PreferenceCategory
